@@ -17,7 +17,7 @@ This project trains a machine learning model to predict **days-to-pay** for invo
     - Housing market activity and interest rates  
 
 - **Machine learning models**
-  - Trains **CatBoostRegressor** models for:
+  - Trained **CatBoostRegressor** models for:
     - Point prediction (minimizing MAE).
     - Quantile regression (P10 / P90) for prediction intervals.
   - Time-aware train/validation split (train on earlier invoices, validate on later ones).
